@@ -1,0 +1,16 @@
+--- LEGACY SYSTEM EXPORT - DO NOT USE FOR NEW DEPLOYMENTS ---
+Export Date: 2026-02-11
+Original System: Jenkins-Legacy-Build-Node-04
+
+[AWS_CREDENTIALS_LEGACY]
+# Note: These are tied to the old 'backups' bucket. 
+# Need to rotate these once the sync to the new account is verified.
+
+IAM_USER: honeycred-gh-mid
+AWS_ACCESS_KEY_ID=AKIAVOFUMBYCCHA5KBLX
+AWS_SECRET_ACCESS_KEY=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
+DEFAULT_REGION=eu-west-1
+
+[S3_TARGETS]
+BUCKET_NAME=legacy-archive-01-prod-backup
+SYNC_PATH=/var/www/uploads/
